@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A50973C11E3D9F20000A2135 /* PlayerDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A50973C01E3D9F20000A2135 /* PlayerDetailsViewController.swift */; };
 		A5796F241E38B92400D81704 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5796F231E38B92400D81704 /* AppDelegate.swift */; };
 		A5796F291E38B92400D81704 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5796F271E38B92400D81704 /* Main.storyboard */; };
 		A5796F2B1E38B92400D81704 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A5796F2A1E38B92400D81704 /* Assets.xcassets */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A50973C01E3D9F20000A2135 /* PlayerDetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayerDetailsViewController.swift; sourceTree = "<group>"; };
 		A5796F201E38B92400D81704 /* Ratings.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ratings.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A5796F231E38B92400D81704 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A5796F281E38B92400D81704 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -60,6 +62,7 @@
 			children = (
 				A5796F231E38B92400D81704 /* AppDelegate.swift */,
 				A5796F351E38C20C00D81704 /* PlayersViewController.swift */,
+				A50973C01E3D9F20000A2135 /* PlayerDetailsViewController.swift */,
 				A5796F391E38CE2400D81704 /* PlayerCell.swift */,
 				A5796F371E38C26200D81704 /* Player.swift */,
 				A5796F271E38B92400D81704 /* Main.storyboard */,
@@ -147,6 +150,7 @@
 				A5796F241E38B92400D81704 /* AppDelegate.swift in Sources */,
 				A5796F361E38C20C00D81704 /* PlayersViewController.swift in Sources */,
 				A5796F3A1E38CE2400D81704 /* PlayerCell.swift in Sources */,
+				A50973C11E3D9F20000A2135 /* PlayerDetailsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -308,6 +312,7 @@
 				A5796F341E38B92400D81704 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

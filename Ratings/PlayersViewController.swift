@@ -30,6 +30,19 @@ class PlayersViewController: UITableViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
+    
+    @IBAction func cancelToPlayersViewController(segue: UIStoryboardSegue) {
+    }
+    
+    @IBAction func savePlayerDetail(segue: UIStoryboardSegue) {
+        if let playerDetailViewContorller = segue.source as? PlayerDetailsViewController {
+            if let player = playerDetailViewContorller.player {
+                players.append(player)
+                let indexPath = IndexPath(row: players.count - 1, section: 0)
+                tableView.insertRows(at: [indexPath], with: .automatic)
+            }
+        }
+    }
 
     // MARK: - Table view data source
 
